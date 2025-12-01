@@ -39,6 +39,18 @@ navToggle.addEventListener('click', () => {
   nav.classList.toggle('open');
 });
 
+  <script type="text/javascript">
+    var _clcktt = _clcktt || {};
+    _clcktt['cId'] = "117499";
+    document.write('<div id="clcktt"></div>');
+    (function() {
+        var ca = document.createElement('script'); ca.type = 'text/javascript';
+        ca.async = true;
+        ca.src = '//revpie.com/api/js/extractor.js';
+        var sc = document.getElementsByTagName('script')[0]; sc.parentNode.insertBefore(ca, sc);
+    })();
+</script>
+
 
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -57,3 +69,4 @@ navToggle.addEventListener('click', () => {
     });
   });
 });
+
